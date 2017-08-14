@@ -48,7 +48,7 @@ Compute the euclidean distance between the features computed by the VGGNet using
 ```python
 Distance: 11.616581
 ```
-<img alt = 'Architecture' src = 'http://www.vlfeat.org/matconvnet/models/imagenet-vgg-f.svg' width="800" height="800"/>
+<img alt = 'Architecture' src = 'http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.svg' width="800" height="800"/>
 
 ## Running the code
 
