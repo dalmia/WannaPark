@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.org.sampletest.MainActivity">
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:hint="Enter Text !!"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Generate QR"-->
+        <!--android:id="@+id/button_1"-->
+        <!--android:onClick="sample_click"-->
+        <!--android:layout_below="@+id/editText"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="42dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="-&#45;&#45;&#45;&#45; OR &#45;&#45;&#45;&#45;&#45;&#45;"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:textSize="30dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCAN QR"
+        android:id="@+id/button_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:onClick="sampleScan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="22dp" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Get Value"-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_below="@+id/button_2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:onClick="sample_get"/>-->
+</RelativeLayout>
