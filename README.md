@@ -95,13 +95,9 @@ Distance: 25.926846
  
   - `server` - Contains the server side code implemented in Python which connects the Android Application, a scanner app, the `face_comparison` module and the `parking_lot_detection` module. 
  
- We used [neuralPlateRecognition](1) for Number plate extraction from the image.
+ We used [neuralPlateRecognition](https://github.com/niloxx/neuralPlateRecognition) for Number plate extraction from the image.
  
  ## Contributors
- - [Aman Dalmia](2) (`face_comparison`, `parking_lot_detection`)
- - [Sourav Das](3) (`server`)
- 
- [1]: https://github.com/niloxx/neuralPlateRecognition
- [2]: https://github.com/dalmia
- [3]: https://www.facebook.com/sourav.das.3557
+ - [Aman Dalmia](https://github.com/dalmia) (`face_comparison`, `parking_lot_detection`)
+ - [Sourav Das](https://www.facebook.com/sourav.das.3557) (`server`)
  
