@@ -3,7 +3,7 @@
 Compute the similarity between the images of two faces.
 
 ## Steps
-Refer [this](1) for a detailed explanation. 'Entry' and 'Exit' below refer to entering into and exiting from 
+Refer [this](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78) for a detailed explanation. 'Entry' and 'Exit' below refer to entering into and exiting from 
 a parking lot.
 
 <p align = "center">
@@ -57,21 +57,11 @@ python compare_similarity.py
 ```
 
 ## Dependencies
-- [PIL](3)
-- [skimage](4)
-- [numpy](5)
-- [keras](6)
-- [OpenCV](7)
-- [dlib](8)
+- [PIL](www.pythonware.com/products/pil/)
+- [skimage](http://scikit-image.org/docs/dev/api/skimage.html)
+- [numpy](www.numpy.org/)
+- [keras](http://keras.io/)
+- [OpenCV](http://opencv.org/)
+- [dlib](http://dlib.net/)
 
-Use [pip](9) to install them (except for dlib).
-
-[1]: https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
-[2]: http://www.vlfeat.org/matconvnet/models/imagenet-vgg-f.svg
-[3]: www.pythonware.com/products/pil/
-[4]: http://scikit-image.org/docs/dev/api/skimage.html
-[5]: www.numpy.org/
-[6]: http://keras.io/
-[7]: http://opencv.org/
-[8]: http://dlib.net/
-[9]: https://pypi.python.org/pypi/pip
+Use [pip](https://pypi.python.org/pypi/pip) to install them (except for dlib).
