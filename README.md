@@ -5,6 +5,16 @@
  released yet).
  
  ## Description
+ - `android` - Contains the code for the Android App for WannaPark and a utility scanner app.
+  <p align = "center">
+ <img src = 'images/Screenshots/1.png' width = "216" height = "384"/>
+ &nbsp; &nbsp; &nbsp;
+ <img src = 'images/Screenshots/2.png' width = "216" height = "384"/>
+ &nbsp; &nbsp; &nbsp;
+ <img src = 'images/Screenshots/3.png' width = "216" height = "384"/>
+ </p>
+ 
+ 
  - `face_comparison` - Contains the code to implement face comparison using Histogram of Gradients (HOG) 
  for extracting the faces from the 2 images, Pose estimation to align the extracted face images as close to the center 
  as possible and finally, using the VGGNet-16 (with `weights=imagenet`) as a feature extractor for the two images.
@@ -17,9 +27,9 @@
  <b>Input Exit</b>
  </p>
  <p align = "center">
- <img src = 'images/final_entry/image.jpg'/>
+ <img alt = 'Entry Image' src = 'images/final_entry/image.jpg'/>
  &nbsp; &nbsp; &nbsp;
- <img src = 'images/final_exit/image.jpg'/>
+ <img alt = 'Exit Image 1' src = 'images/final_exit/image.jpg'/>
  </p>
  <p align = "center">
  <b> Output Entry</b>
@@ -27,9 +37,9 @@
  <b>Output Exit</b>
  </p>
  <p align = "center">
- <img src = 'images/results/face_entry.png'/>
+ <img alt = 'Output Entry Image' src = 'images/results/face_entry.png'/>
  &nbsp; &nbsp; &nbsp;
- <img src = 'images/results/face_exit.png'/>
+ <img alt = 'Output Exit Image 1' src = 'images/results/face_exit.png'/>
  </p>
  
  ```python
@@ -42,9 +52,9 @@ Distance: 11.616581
  <b>Input Exit</b>
  </p>
  <p align = "center">
- <img src = 'images/final_entry/image.jpg'/>
+ <img alt = 'Entry Image' src = 'images/final_entry/image.jpg'/>
  &nbsp; &nbsp; &nbsp;
- <img src = 'images/test_images/image21.jpg'/>
+ <img alt = 'Exit Image 2' src = 'images/test_images/image21.jpg'/>
  </p>
  <p align = "center">
  <b> Output Entry</b>
@@ -52,9 +62,9 @@ Distance: 11.616581
  <b>Output Exit</b>
  </p>
  <p align = "center">
- <img src = 'images/results/face_entry.png'/>
+ <img alt = 'Entry Image' src = 'images/results/face_entry.png'/>
  &nbsp; &nbsp; &nbsp;
- <img src = 'images/results/face_exit2.png'/>
+ <img alt = 'Output Exit Image 2' src = 'images/results/face_exit2.png'/>
  </p>
 
 ```python
