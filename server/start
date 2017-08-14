@@ -1,0 +1,4 @@
+gnome-terminal -x python secure_camera.py
+sleep 2
+gnome-terminal -x python cs3.py
+gnome-terminal -x python entry_scanner.py

@@ -1,0 +1,5 @@
+magic=face600d
+identity=lot_a
+total=8
+avaialble=3
+detail=11010101

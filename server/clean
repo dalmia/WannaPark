@@ -1,0 +1,9 @@
+#!/bin/bash
+ps -ef | grep cs3.py | grep -v grep | awk '{print $2}' | xargs kill -9	
+ps -ef | grep entry_scanner.py | grep -v grep | awk '{print $2}' | xargs kill -9
+ps -ef | grep stepper2.py | grep -v grep | awk '{print $2}' | xargs kill -9	
+ps -ef | grep imageDetector.py | grep -v grep | awk '{print $2}' | xargs kill -9
+ps -ef | grep stepper_motor.py | grep -v grep | awk '{print $2}' | xargs kill -9
+ps -ef | grep secure_camera.py | grep -v grep | awk '{print $2}' | xargs kill -9
+ps -ef | grep stepper_motor2.py | grep -v grep | awk '{print $2}' | xargs kill -9
+ps -ef | grep user_mobile.py | grep -v grep | awk '{print $2}' | xargs kill -9
