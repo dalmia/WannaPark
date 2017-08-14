@@ -83,6 +83,8 @@ Distance: 25.926846
  <img src = 'images/results/parking_lot_detection.png'/>
  </p>
  
+  - `server` - Contains the server side code implemented in Python which connects the Android Application, a scanner app, the `face_comparison` module and the `parking_lot_detection` module. 
+ 
  We used [neuralPlateRecognition](1) for Number plate extraction from the image.
  
  ## Contributors
