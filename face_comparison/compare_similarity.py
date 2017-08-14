@@ -67,5 +67,5 @@ def euclidean_distance(im1, im2):
 
 model = VGG19(include_top=False, weights='imagenet')
 pred1, pred2 = model.predict(np.array([face_entry, face_exit]))
-similarity = euclidean_distance(pred1, pred2)
-print(similarity)
+distance = euclidean_distance(pred1, pred2)
+print("Euclidean Distance between the faces: " + distance) 
