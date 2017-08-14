@@ -12,9 +12,9 @@ a parking lot.
  <b>Input Exit</b>
  </p>
  <p align = "center">
- <img alt = 'Entry Image' src = 'images/final_entry/image.jpg'/>
+ <img alt = 'Entry Image' src = '../images/final_entry/image.jpg'/>
  &nbsp; &nbsp; &nbsp;
- <img alt = 'Exit Image 1' src = 'images/final_exit/image.jpg'/>
+ <img alt = 'Exit Image 1' src = '../images/final_exit/image.jpg'/>
 </p>
 
 ### 1. Finding all the faces (Histogram of Gradients)
@@ -25,9 +25,9 @@ a parking lot.
 <b>Exit Face</b>
 </p>
 <p align = "center">
-<img alt = 'Output Entry Image' src = 'images/results/face_entry.png'/>
+<img alt = 'Output Entry Image' src = '../images/results/face_entry.png'/>
 &nbsp; &nbsp; &nbsp;
-<img alt = 'Output Exit Image 1' src = 'images/results/face_exit.png'/>
+<img alt = 'Output Exit Image 1' src = '../images/results/face_exit.png'/>
 </p>
 
 ### 2. Posing and Projecting Faces (Face Landmark Estimation)
@@ -37,9 +37,9 @@ a parking lot.
 <b>Exit Face Aligned</b>
 </p>
 <p align = "center">
-<img alt = 'Output Entry Aligned Image' src = 'images/results/face_aligned_entry.jpg' width="200" height="200"/>
+<img alt = 'Output Entry Aligned Image' src = '../images/results/face_aligned_entry.jpg' width="200" height="200"/>
 &nbsp; &nbsp; &nbsp;
-<img alt = 'Output Exit Aligned Image 1' src = 'images/results/face_aligned_exit.jpg' width="200" height="200"/>
+<img alt = 'Output Exit Aligned Image 1' src = '../images/results/face_aligned_exit.jpg' width="200" height="200"/>
 </p>
 
 ### 3. Neural Network as feature extractor (Convolutional Neural Networks)
