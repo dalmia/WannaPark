@@ -4,11 +4,12 @@
  We also propose a novel method for internal navigation and prevention of Car thefts (all details are not
  released yet).
  
+ ## Description
  - `face_comparison` - Contains the code to implement face comparison using Histogram of Gradients (HOG) 
  for extracting the faces from the 2 images, Pose estimation to align the extracted face images as close to the center 
  as possible and finally, using the VGGNet-16 (with `weights=imagenet`) as a feature extractor for the two images.
  The similarity comparison is done by calculating the euclidean distance between the extracted features of the two images.
- Compare different images using images placed in `images/test_images`. <br>
+ Compare different images using images placed in `images/test_images`. Details on using the code are present in the folder.<br>
  
  <p align = "center">
  <b> Input Entry</b>
@@ -70,7 +71,7 @@ Distance: 25.926846
  - `parking_lot_detection` - Contains the code to implement parking lot vacancy detection. It uses the PKLot dataset for training 
  where each image is of size 54x32. It uses the pre-trained convolutional layers from VGGNet-F (As this is the only version of
  VGGNet which would work with images of dimension 54x32) and then fine-tunes the dense layer for the required task. It achieved
- an accuracy of ~ 94%. <br>
+ an accuracy of ~ 94%. Details on using the code are present in the folder. <br>
  <p align = "center">
  <b> Input</b>
  &nbsp; &nbsp; &nbsp;
@@ -81,8 +82,14 @@ Distance: 25.926846
  &nbsp; &nbsp; &nbsp;
  <img src = 'images/results/parking_lot_detection.png'/>
  </p>
-
-  
-
  
+ We used [neuralPlateRecognition](1) for Number plate extraction from the image.
+ 
+ ## Contributors
+ - [Aman Dalmia](2) (`face_comparison`, `parking_lot_detection`)
+ - [Sourav Das](3) (`server`)
+ 
+ [1]: https://github.com/niloxx/neuralPlateRecognition
+ [2]: https://github.com/dalmia
+ [3]: https://www.facebook.com/sourav.das.3557
  
