@@ -30,7 +30,35 @@
  &nbsp; &nbsp; &nbsp;
  <img src = 'images/results/face_exit.png'/>
  </p>
+ 
+ ```python
+Distance: 11.616581
+```
 
+ <p align = "center">
+ <b> Input Entry</b>
+ &nbsp; &nbsp; &nbsp;
+ <b>Input Exit</b>
+ </p>
+ <p align = "center">
+ <img src = 'images/final_entry/image.jpg'/>
+ &nbsp; &nbsp; &nbsp;
+ <img src = 'images/test_images/image21.jpg'/>
+ </p>
+ <p align = "center">
+ <b> Output Entry</b>
+ &nbsp; &nbsp; &nbsp;
+ <b>Output Exit</b>
+ </p>
+ <p align = "center">
+ <img src = 'images/results/face_entry.png'/>
+ &nbsp; &nbsp; &nbsp;
+ <img src = 'images/results/face_exit2.png'/>
+ </p>
+
+```python
+Distance: 25.926846
+```
  
  - `images` - Contains the various images used.
     - `final_detection` - Contains the image for parking lot vacancy detection.
