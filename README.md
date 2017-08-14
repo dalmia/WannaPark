@@ -19,7 +19,7 @@
  for extracting the faces from the 2 images, Pose estimation to align the extracted face images as close to the center 
  as possible and finally, using the VGGNet-16 (with `weights=imagenet`) as a feature extractor for the two images.
  The similarity comparison is done by calculating the euclidean distance between the extracted features of the two images.
- Compare different images using images placed in `images/test_images`. Details on using the code are present in the folder.<br>
+ Compare different images using images placed in `images/test_images`. <br>
  
  <p align = "center">
  <b> Input Entry</b>
