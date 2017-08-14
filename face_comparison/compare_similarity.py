@@ -47,5 +47,25 @@ def get_face(filename):
     return face1, alignedFace
 #----------------------------------------------------------------------------------------
 
-faces = get_face('../images/final_entry/image.jpg')
-imsave('face.jpg', faces[0])
+face_entry, _ = get_face('../images/final_entry/image.jpg')
+imsave('face_entry.jpg', face_entry)
+
+face_exit, _ = get_face('../images/final_exit/image.jpg')
+imsave('face_exit.jpg', face_exit)
+
+def resize(im, size):
+    im = Image.fromarray(im)
+    im = im.resize((size, size))
+    im = np.array(im)
+    return im
+
+face_entry = resize(face_entry, 256)
+face_exit = resize(face_exit, 256)
+
+def euclidean_distance(im1, im2):
+    return np.sum((im1-im2)**2) / im1.size
+
+model = VGG19(include_top=False, weights='imagenet')
+pred1, pred2 = model.predict(np.array([face_entry, face_exit]))
+similarity = euclidean_distance(pred1, pred2)
+print(similarity)
