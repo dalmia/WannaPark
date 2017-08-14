@@ -33,7 +33,6 @@ def get_face(filename):
     for i, face_rect in enumerate(detected_faces):
         # Detected faces are returned as an object with the coordinates 
         # of the top, left, right and bottom edges
-        print("- Face #{} found at Left: {} Top: {} Right: {} Bottom: {}".format(i, face_rect.left(), face_rect.top(), face_rect.right(), face_rect.bottom()))
         face1 = image[face_rect.top():face_rect.bottom(), face_rect.left():face_rect.right()]
         # Draw a box around each face we found
         win.add_overlay(face_rect)
@@ -43,15 +42,17 @@ def get_face(filename):
         alignedFace = face_aligner.align(534, image, face_rect, landmarkIndices=openface.AlignDlib.OUTER_EYES_AND_NOSE)
 
         # Draw the face landmarks on the screen.
-        #win.add_overlay(pose_landmarks)
+        win.add_overlay(pose_landmarks)
     return face1, alignedFace
 #----------------------------------------------------------------------------------------
 
-face_entry, _ = get_face('../images/final_entry/image.jpg')
+face_entry, face_aligned_entry = get_face('../images/final_entry/image.jpg')
 imsave('face_entry.jpg', face_entry)
+imsave('face_aligned_entry.jpg', face_aligned_entry)
 
-face_exit, _ = get_face('../images/final_exit/image.jpg')
+face_exit, face_aligned_exit = get_face('../images/final_exit/image.jpg')
 imsave('face_exit.jpg', face_exit)
+imsave('face_aligned_exit.jpg', face_aligned_exit)
 
 def resize(im, size):
     im = Image.fromarray(im)
@@ -68,4 +69,4 @@ def euclidean_distance(im1, im2):
 model = VGG19(include_top=False, weights='imagenet')
 pred1, pred2 = model.predict(np.array([face_entry, face_exit]))
 distance = euclidean_distance(pred1, pred2)
-print("Euclidean Distance between the faces: " + distance) 
+print("Euclidean Distance between the faces: %f" % distance) 
