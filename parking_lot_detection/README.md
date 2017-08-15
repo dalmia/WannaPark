@@ -42,9 +42,9 @@ The green boxes signify the vacant spots.
  <b>Output</b>
  </p>
  <p align = "center">
- <img src = 'images/results/original_detection.jpg'/>
+ <img src = '../images/results/original_detection.jpg'/>
  &nbsp; &nbsp; &nbsp;
- <img src = 'images/results/parking_lot_detection.png'/>
+ <img src = '../images/results/parking_lot_detection.png'/>
  </p>
  
 ## Dependencies
