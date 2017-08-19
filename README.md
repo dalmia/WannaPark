@@ -4,6 +4,8 @@
  We also propose a novel method for internal navigation and prevention of Car thefts (all details are not
  released yet).
  
+  <img src = 'images/model.jpg'/>
+
  ## Description
  - `android` - Contains the code for the Android App for WannaPark and a utility scanner app.
   <p align = "center">
