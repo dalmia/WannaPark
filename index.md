@@ -4,7 +4,8 @@
  We also propose a novel method for internal navigation and prevention of Car thefts (all details are not
  released yet).
  
- ## Description
+ <h2>Description</h2>
+ 
  - `android` - Contains the code for the Android App for WannaPark and a utility scanner app.
   <p align = "center">
  <img src = 'images/Screenshots/1.png' width = "216" height = "384"/>
@@ -97,7 +98,8 @@ Distance: 25.926846
  
  We used [neuralPlateRecognition](https://github.com/niloxx/neuralPlateRecognition) for Number plate extraction from the image.
  
- ## Contributors
+ <h2>Contributors</h2> 
+ 
  - [Aman Dalmia](https://github.com/dalmia) (`face_comparison`, `parking_lot_detection`)
  - [Sourav Das](https://www.facebook.com/sourav.das.3557) (`server`)
  
